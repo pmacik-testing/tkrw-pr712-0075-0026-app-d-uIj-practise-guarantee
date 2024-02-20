@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ibbq
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0026-tenant/tkrw-pr712-0075-0026-app/devfile-sample-ibbq@sha256:5b6157b71e8928667c5bfd3f6e226db2400387eba904c929c03dd350fd5205e4
         name: my-nodejs
         ports:
         - containerPort: 3001
